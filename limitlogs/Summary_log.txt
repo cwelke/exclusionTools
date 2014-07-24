@@ -1,0 +1,5 @@
+Summary:
+datacard_GMSB_ZMET_150_0
+EXPECTED LIMIT BANDS from(obs, -2s,-1s,median,1s,2s) mass= -1: 2694.87+/-239.168, 181.995+/-77.92, 630.313+/-41.5267, 1419.08+/-30.5268, 2084.18+/-2.80544, 8947.86+/-995.224
+Observed data limit: 2694.87 +/- 239.168
+

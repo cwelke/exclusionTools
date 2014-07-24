@@ -1,0 +1,20 @@
+imax 3 number of channels
+jmax 3 number of background
+kmax * number of nuisance parameters (sources of systematical uncertainties)
+
+bin		0		1		2
+observation	1187		65		7
+
+bin			0	0	0	1	1	1	2	2	2
+process			sig	Z	OF	sig	Z	OF	sig	Z	OF
+process			0	1	2	0	1	2	0	1	2
+
+rate			3.6	336.3	868	0.2	28.6	45.9	0.04	7.7	5.1		events
+JES		lnN	1.00	-	-	1.00	-	-	1.00	-	-		Jet Energy Scale
+lumi		lnN	1.04	-	-	1.04	-	-	1.04	-	-		luminosity
+efflep		lnN	1.05	-	-	1.05	-	-	1.05	-	-		lepton efficiency
+Zerr		lnN	-	1.26	-	-	1.30	-	-	1.47	-		Z bkg syst
+OFerr		lnN	-	-	1.07	-	-	1.16	-	-	1.45		FS BG syst
+ISR		lnN	1.02	-	-	1.02	-	-	1.02	-	-		isr
+FASTSIM		lnN	1.02	-	-	1.02	-	-	1.02	-	-		lep fastsim eff
+SIGSTAT		lnN	0.1	-	-	0.03	-	-	0.01	-	-		stat uncert on signal
